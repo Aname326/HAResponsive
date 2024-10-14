@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="icon" href="Hearts-Alight-Logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class='Photos'>
+        <div></div>
+    </div>
+  <!-- Navbar -->
+  <div class="Navbar">
+    <div class="Logo">
+      <img src="Hearts-Alight-Logo.png" alt="Logo">
+    </div>
+    <div class="HA" id="lang-ha">
+      <!-- This text will be updated with JS -->
+      Hearts Alight
+    </div>
+    <div class="rightSide">
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Events</a>
+      <a href="#">Donations</a>
+    </div>
+    <div class="language">
+      <button class="eng">Eng</button>
+      <button class="TC">繁</button>
+      <button class="SC">简</button>
+    </div>
+    <a class="MenuIcon" id="menuIcon">
+      <img src="menuIcon.png" alt="Menu Icon">
+    </a>
+  </div>
+
+  <!-- Dropdown menu -->
+  <div class="ToggleMenu" id="toggleMenu" style="display: none;">
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Events</a>
+    <a href="#">Donations</a>
+    <div class="language">
+      <button class="eng">Eng</button>
+      <button class="TC">繁</button>
+      <button class="SC">简</button>
+    </div>
+  </div>
+
+  <!-- Contacts Page -->
+  <div class="ContactsPg">
+    <h1>Introducing the Leaders of Hearts Alight</h1>
+    <h1>Youth Formators</h1>
+    <div class="Formators">
+      <div class="Person">
+        <img src="AdaWong.jpg" alt="Ada Wong">
+        <h2>Ada Wong</h2>
+        <p>Cantonese / Mandarin</p>
+      </div>
+
+      <div class="Person">
+        <img src="MarbleMa.jpg" alt="Marble Ma">
+        <h2>Marble Ma</h2>
+        <p>Cantonese / Mandarin</p>
+      </div>
+
+      <div class="Person">
+        <img src="TeresaLing.jpg" alt="Teresa Ling">
+        <h2>Teresa Ling</h2>
+        <p>Mandarin</p>
+      </div>
+    </div>
+
+    <h1>Youth Ministers</h1>
+    <div class="Ministers">
+      <div class="Person">
+        <img src="EricaTing.jpg" alt="Erica Ting">
+        <h2>Erica Ting</h2>
+        <p>Mandarin</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="Footnote">
+    <div class="Text">
+      <a href="https://www.instagram.com/heartsalightaccc">Instagram: @heartsalightaccc</a>
+      <br><br>
+      <a href="https://www.facebook.com/acccnz">Facebook: @accc</a>
+    </div>
+    <div class="Login">
+      <form>
+        <h1>Admin Login</h1>
+        <p>ID:</p>
+        <input type="text">
+        <p>Password:</p>
+        <input type="password"> <br />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Handle menu toggle
+    const menuIcon = document.getElementById('menuIcon');
+    const toggleMenu = document.getElementById('toggleMenu');
+
+    menuIcon.addEventListener('click', () => {
+      if (toggleMenu.style.display === 'none') {
+        toggleMenu.style.display = 'block';
+      } else {
+        toggleMenu.style.display = 'none';
+      }
+    });
+
+    // Handle language switch (placeholder logic)
+    document.querySelector('.eng').addEventListener('click', () => {
+      document.getElementById('lang-ha').innerText = 'Hearts Alight';
+    });
+    document.querySelector('.TC').addEventListener('click', () => {
+      document.getElementById('lang-ha').innerText = '愛心閃耀';
+    });
+    document.querySelector('.SC').addEventListener('click', () => {
+      document.getElementById('lang-ha').innerText = '爱心闪耀';
+    });
+  </script>
+</body>
+</html>

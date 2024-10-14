@@ -1,0 +1,422 @@
+/* In alphabetical order */
+
+.AboutPg {
+    margin: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-position-x: center;
+}
+
+.AboutPg .Text {
+    margin: 10%;
+    font-size: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f4e9c9;
+  }
+
+.ContactsPg {
+    margin: 5%;
+    font-size: 100%;
+}
+
+.ContactsPg h1 {
+    text-align: center;
+}
+
+.ContactsPg img {
+    border-radius: 50%;
+    width: 250px;
+    
+}
+
+.ContactsPg .Formators {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ContactsPg .Formators div {
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactsPg .Ministers {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ContactsPg .Ministers div {
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactsPg .Person {
+    text-align: center;
+}
+
+.DonationsPg {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 2vw;
+}
+
+.DonationsPg img {
+    width: 60%;
+}
+
+.EventsPg {
+    margin: 5%;
+    font-size: 100%;
+}
+
+.EventsPoster { 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.EventsPoster button {
+    background-color: #DC7F2F ;
+    height: 40px;
+    width: 30vw;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.EventsPoster button:hover {
+    background-color: #d7b08e;
+}
+
+.EventsPoster img {
+    width: 30%;
+    padding: 5px;
+}
+
+.EventsPostersBtn {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #DC7F2F;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.EventsPostersBtn:hover {
+    background-color: #d7b08e;
+}
+
+.EventsReg {
+    text-align: center;
+}
+
+.EventsReg img {
+    width: 90%;
+}
+
+.EventsReg .AdminRegInfo {
+    display: grid;
+    grid-template-columns: repeat(6);
+}
+
+.EventsReg .AdminRegInfo td {
+    border: 1px solid black;
+}
+
+.EventsReg .AdminRegInfo th {
+    border: 1px solid black;
+}
+
+.EventsReg .RegInfo {
+    display: grid;
+    grid-template-columns: repeat(4);
+}
+
+.EventsReg .RegInfo td {
+    border: 1px solid black;
+}
+
+.EventsReg .RegInfo th {
+    border: 1px solid black;
+}
+
+.EventsReg .subAgainBtn {
+    background-color: #DC7F2F;
+    color: white;
+    height: 60px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.EventsReg .subAgainBtn:hover {
+    background-color: #d7b08e;
+}
+
+.EventsReg .subBtn {
+    background-color: #DC7F2F;
+    color: white;
+    height: 10vw;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 2vw;
+}
+
+.EventsReg .subBtn:hover {
+    background-color: #d7b08e;
+}
+
+.EventsRegBtn {
+    padding: 20px;
+    background-color: #DC7F2F;
+    border-radius: 10px;
+    color: white;
+}
+
+.EventsRegBtn:hover {
+    background-color: #d7b08e;
+}
+
+.Footnote {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(147, 147, 147, 0.707);
+    margin-bottom: 0%;
+    font-size: 100%;
+}
+
+.Footnote .Text {
+    margin-left: 5%;
+    margin-top: 25px;
+    color: white;
+}
+
+.Footnote .Text a {
+    text-decoration: none;
+    color: white;
+}
+
+.Footnote .Text a:hover {
+    text-decoration: underline;
+}
+
+.HomePg {
+    text-align: center;
+    margin: 50px;
+}
+
+.HomePg p {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.HomePg .Posters img {
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+}
+
+.HomePg .SaltLight {
+    height: 400px;
+}
+
+.Login {
+    float: right;
+    margin-top: -75px;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.Login button {
+    margin-top: 20px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(181, 178, 178);
+    padding: 10px;
+}
+
+.Login button:hover {
+    background-color: grey;
+}
+
+.Login h1 {
+    color: white;
+}
+
+.Login p {
+    color: white;
+}
+
+/* Login in footnote ends */
+
+.MenuIcon {
+    margin-right: 0.5%;
+    display: none;
+}
+
+.MenuIcon img {
+    height: 70px;
+}
+
+.Navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #cd3f32;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar .HA {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    margin-left: 40px;
+    color: white;
+    font-size: 3.9em;
+    white-space: nowrap;
+}
+
+.Navbar .Logo img {
+    max-height: 95px;
+    width: auto;
+    margin-left: 30px;
+}
+
+.Navbar .Logo img:hover {
+    background-color: rgba(195, 195, 195, 0.749); /* for now so it's easier to see if hovered or not */
+}
+
+.Navbar .language {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Navbar .language button {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.Navbar .rightSide a {
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.Navbar .rightSide a:hover {
+    background-color: rgba(195, 195, 195, 0.749);
+}
+
+.Navbar .rightSide a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.Photos {
+    background-image: url('2023FrChoiBdayPhoto.JPG');
+    margin-top: 0;
+    background-position-x: center;
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.ToggleMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 1160px) {
+    .MenuIcon {
+        display: block;
+        justify-content: right;
+        margin-left: auto;
+    }
+    .Navbar .HA {
+        justify-content: center;
+        margin: auto;
+    }
+    .Navbar .language {
+        display: none;
+    }
+    .Navbar .rightSide {
+        display: none;
+    }
+    .ToggleMenu {
+        background-color:#983026;
+        display: inline-block;
+        width: 100%;
+        font-size: 100%;
+    }
+    .ToggleMenu a {
+        text-decoration: none;
+        transition: background-color 0.3s;
+        margin: 0px 40px;
+    }
+    .ToggleMenu a:hover {
+        background-color: white;
+    }
+    .ToggleMenu a div {
+        margin-left: 4% ;
+    }
+    .ToggleMenu .language {
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        justify-content: center;
+    }
+    .ToggleMenu .language button {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 852px) {
+    .Footnote {
+        display: inline-block;
+        height: 400px;
+    }
+    .Login {
+        float: none;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .MenuIcon img {
+        height: 25px;
+    }
+    .Navbar .Logo img {
+        max-height: 50px;
+        margin-left: 0.5%;
+    }
+    .Navbar .HA {
+        font-size: 2.2rem;
+    }
+}
