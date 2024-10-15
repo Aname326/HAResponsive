@@ -384,9 +384,6 @@ body {
         margin: 0px 40px;
         color: white;
     }
-    .ToggleMenu a:hover {
-        background-color: white;
-    }
     .ToggleMenu a div {
         margin-left: 4% ;
     }
