@@ -374,6 +374,9 @@ body {
         display: inline-block;
         width: 100%;
         font-size: 100%;
+        padding: 10px 0px;
+        align-items: left; 
+        justify-content: space-around;
     }
     .ToggleMenu a {
         text-decoration: none;
